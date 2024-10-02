@@ -49,7 +49,7 @@ boxplot(VitC~Cult,data=veggy)
 ```
 
 
-The Graphical Descriptive Results show us the difference between VitC and Cult. It shows us that VitC in c52 is greater than in c39.
+The Graphical Descriptive Results show us the difference between VitC in c39 and c52. It shows us that VitC in c52 is greater than in c39.
 
 ### Numerical Descriptive Results
 
@@ -59,7 +59,8 @@ The Graphical Descriptive Results show us the difference between VitC and Cult. 
 favstats(VitC~Cult,data=veggy)
 ```
 
-Add numerical results here
+The average for vitc in c39 is 51.5.
+The average for vitc in c52 is 64.4.
 
 ## Inferential Results
 
@@ -69,11 +70,11 @@ Add numerical results here
 t.test(VitC~Cult,data=veggy)
 ```
 
-Add infrential results here (p-value is 00000000.3405)
+The p-value is .00000003, which is less than 0.05
+We then reject the null hypothesis and conclude vitc c52 is better than vitc c39
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-Add discussion and conclusion here (Original Q & P-Value)(Reject Null hypothesis)
-(evidence that there is a difference in VitC content of the two cultivation methods, c52 being better than c39)
+I looked at the difference in vitc for c39 and c52. I then concluded that c52 is better than c52 as the mean for c52 is 64.4 and the mean for c39 is 51.4.The inferential results then told us the p-value is .00000003 which is less than 0.05. Thus, we reject the null hypothesis as there is a difference in the VitC in c39 and c52, c52 is better than c39. 
